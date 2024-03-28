@@ -1,0 +1,355 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #7829d2;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav h2 {
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Page-specific Styles */
+.hero-section {
+  padding: 150px 20px;
+  text-align: center;
+  background: url("https://codeup.rocks/about-us-bg-min.jpeg");
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 20px;
+}
+.hero-section p {
+  font-size: 18px;
+  color: #c9c9c9;
+  margin-bottom: 40px;
+}
+.hero-section a {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.hero-section a:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for services section */
+.services {
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20240106/pngtree-d-rendering-of-a-computer-and-tablet-displaying-a-responsive-web-image_13513226.png"),
+    #7829d2;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 130px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+}
+
+.all-service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.service {
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.288);
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.service p {
+  font-size: 1.1rem;
+  color: #c9c9c9;
+}
+
+/* Styles for portfolio section */
+.portfolio {
+  padding: 50px 0;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-memphis-playful-portfolio-pink-image_593418.jpg"),
+    #7829d2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.portfolio .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.portfolio-item {
+  margin-bottom: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.portfolio-item p {
+  font-size: 1.1rem;
+  color: #c9c9c9;
+}
+
+/* Styles for testimonial section */
+.testimonials {
+  padding: 120px 0;
+  background: url("https://img.freepik.com/free-vector/dark-blue-memphis-blog-banner-template_53876-98946.jpg"),
+    #7829d2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+.testimonials .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-decoration: underline;
+  color: white;
+  font-size: 40px;
+}
+
+.all-testimonial {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.288);
+  padding: 20px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 1.1rem;
+}
+
+/* Styles for about section */
+.about {
+  padding: 50px 0;
+  background: url("https://st3.depositphotos.com/9515902/33617/i/450/depositphotos_336178800-stock-photo-black-technology-background-for-web.jpg"),
+    #7829d2; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-blend-mode: lighten;
+}
+
+.about .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 40px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #c9c9c9;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-text ul li {
+  margin-bottom: 10px;
+}
+
+/* Styles for contact section */
+.contact {
+  padding: 100px 0;
+  background: url("https://st3.depositphotos.com/9515902/33617/i/450/depositphotos_336178800-stock-photo-black-technology-background-for-web.jpg"),
+    #7829d2; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-blend-mode: lighten;
+}
+
+.contact .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: white;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+}
+
+.contact-details {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contact-details li {
+  list-style: square;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-form h3,
+.contact-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
